@@ -1,0 +1,26 @@
+.cabinet {
+  background: var(--grey-2);
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cabinet-data {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px;
+
+  &__headline {
+    margin: 0;
+    color: var(--white);
+    font-size: 24px;
+  }
+
+  &__logout {
+    margin: 5px 0 0 20px;
+    color: var(--white);
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,114 @@
+.wrap-starship {
+  margin: 20px 0;
+}
+
+.starship {
+  display: flex;
+
+  &:hover {
+    .starship-img__dark {
+      display: block;
+    }
+    .starship-img__name {
+      display: block;
+    }
+  }
+}
+
+.starship-img {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-right: 30px;
+  display: flex;
+  
+  &__img {
+    width: 300px;
+    height: 300px;
+  }
+  &__container-name {
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+  }
+
+  &__name {
+    display: none;
+    color: var(--white);
+    margin: 0 auto;
+  }
+
+  &__dark {
+    display: none;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    background: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    //width: 300px;
+    //height: 300px;
+  }
+}
+
+.starship-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+
+  &__elem {
+    font-size: 24px;
+    color: var(--white);
+    margin: 0 0 20px;
+  }
+
+  &__btn {
+    margin-top: auto;
+    max-width: 200px;
+  }
+}
+
+.starship-rent {
+  display: flex;
+}
+
+.starship-years {
+  display: flex;
+  margin-left: 10px;
+
+  &__year {
+    font-size: 24px;
+    margin: 0 10px;
+    color: var(--white);
+  }
+
+  &__point {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: var(--white);
+    cursor: pointer;
+    background: var(--back-dark);
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+
+@media (max-width: 580px) {
+  .starship {
+    align-items: center;
+    flex-direction: column;
+  }
+}

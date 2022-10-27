@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  --reverse-primary: #0F172A;
+  --primary-light: #EDF2F7;
+  --primary-light-const: #EDF2F7;
+  --blue: #4C6FFF;
+  --light-dark: #334155;
+  --danger: #F16063;
+  --grey-2: #0F172A;
+  --light-gray: #D5D5DC;
+  --success: #66CB9F;
+  --white: #FFFFFF;
+  --white-const: #FFFFFF;
+  --gray: #96A7AF;
+  --green-1: #22C55E;
+  --green-dark: #2A3C44;
+  --back-dark: rgba(255, 255, 255, 0.05);
+  --grey-1: #98A1BD;
+  --loader-back: linear-gradient(225deg, rgba(41, 39, 46, 0.8) 0%, rgba(39, 39, 46, 0.8) 100%);
+  --yellow: #FFC542;
+  --error-headline: #FFFFFF;
+  --error-text: #B5B7BD;
+  --circle-back: #334155;
+  --toggle-night: #FFFFFF;
+}
